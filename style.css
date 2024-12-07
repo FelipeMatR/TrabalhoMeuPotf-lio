@@ -1,0 +1,112 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Define a fonte padrão para todos os elementos */
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Define o espaçamento entre as linhas */
+}
+
+header {
+    background: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 10px 0; /* Espaçamento interno no topo e na base */
+}
+
+header nav ul {
+    list-style: none; /* Remove os marcadores do menu de navegação */
+    display: flex; /* Exibe os itens em linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    padding: 0;
+    margin: 0;
+    background-color: #333; /* Cor de fundo da barra de navegação */
+}
+
+header nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens da lista */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #fff; /* Cor do texto dos links */
+    font-weight: bold; /* Define o texto em negrito */
+    padding: 10px 15 px; /* Espaçamento interno */
+    border: 2px solid transparent; /* Borda invisível para hover */
+    border-radius: 5px; /* Arredonda os cantos */
+    display: inline-block; /* Garante que o link seja tratado como bloco em linha */
+}
+
+header nav ul li a:hover {
+    color: #fff; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #fff;
+    border-color: #fff; /* Muda a cor da borda ao passar o mouse */
+    color:#333 /* Muda a cor do texto ao passar o mouse */
+}
+main {
+    max-width: 800px; /* Largura máxima da área principal */
+    margin: 20px auto; /* Centraliza o conteúdo horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Arredonda os cantos */
+}
+
+main h1 {
+    text-align: center; /* Centraliza o título principal */
+    font-size: 20px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+}
+main h2 {
+    font-size: 80px; /* Tamanho grande para destaque */
+    text-align: center; /* Centraliza o texto */
+    color: #333; /* Cor do texto */
+}
+main h3 {
+    text-align: center;
+    color: #333;
+}
+main p {
+    text-align: center;
+    font-size: 25px;
+    color: #333;
+    margin: 0 auto;
+    padding: 0 auto; /* Evita deslocamentos */
+}
+main ul {
+    text-align: center; /* Centraliza a lista */
+    font-size: 20px;
+    color: #333;
+    list-style-position: inside; /* Coloca os marcadores dentro do contêiner */
+    margin: 0 auto;
+    padding: 0;
+    width: fit-content;  /* Ajusta a largura ao conteúdo */
+}
+main li {
+    text-align: left; /* Alinha os itens da lista à esquerda */
+}
+.containerImagem {
+    text-align: center; /* Centraliza o contêiner das imagens */
+}
+.containerImagem img {
+    margin: 0 10px; /* Adiciona espaçamento entre as imagens */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaço entre os elementos do formulário */
+}
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Garantir que os campos ocupem toda a largura disponível */
+    box-sizing: border-box; /* Para considerar padding e border na largura */
+}
+body{
+    background-image: url(imagens/fundoImagem.jpg); /* Adiciona uma imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    margin: 0; /* Remove margens padrão */
+    min-height: 100vh;/* Garante que o fundo ocupe no mínimo a altura da tela */
+} 
